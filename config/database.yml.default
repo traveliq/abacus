@@ -1,0 +1,15 @@
+development:
+  adapter: mysql
+  socket: '/tmp/mysql.sock'
+  database: abacus_statistics_development
+  username: root
+  password:
+
+test:
+  adapter: mysql
+  socket: '/tmp/mysql.sock'
+  database: abacus_statistics_test
+  username: 
+  password: 
+  host: localhost
+  encoding: utf8
